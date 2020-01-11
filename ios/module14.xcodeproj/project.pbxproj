@@ -348,6 +348,10 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 3MSY48RE9K;
+						ProvisioningStyle = Manual;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -751,8 +755,10 @@
 			baseConfigurationReference = 685C42421DE7B58DEE774A1C /* Pods-module14.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 3MSY48RE9K;
 				INFOPLIST_FILE = module14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -760,8 +766,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IgorClemente.GoBarber;
 				PRODUCT_NAME = module14;
+				PROVISIONING_PROFILE_SPECIFIER = Development;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -771,7 +778,10 @@
 			baseConfigurationReference = 5A4FB41B73FF922D3A0B11BE /* Pods-module14.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MSY48RE9K;
 				INFOPLIST_FILE = module14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -779,8 +789,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IgorClemente.GoBarber;
 				PRODUCT_NAME = module14;
+				PROVISIONING_PROFILE_SPECIFIER = Distribution;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1049,7 +1060,10 @@
 			baseConfigurationReference = 5A4FB41B73FF922D3A0B11BE /* Pods-module14.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MSY48RE9K;
 				INFOPLIST_FILE = module14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1057,8 +1071,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IgorClemente.GoBarber;
 				PRODUCT_NAME = module14;
+				PROVISIONING_PROFILE_SPECIFIER = Adhoc;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Staging;
