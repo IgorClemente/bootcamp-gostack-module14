@@ -42,20 +42,20 @@ target 'module14' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'module14Tests' do
-    inherit! :search_paths
+  #target 'module14Tests' do
+    #inherit! :search_paths
     # Pods for testing
-  end
+  #end
 
   use_native_modules!
 end
 
-target 'module14-tvOS' do
-  # Pods for module14-tvOS
+#target 'module14-tvOS' do
+  #Pods for module14-tvOS
 
-  target 'module14-tvOSTests' do
-    inherit! :search_paths
+ #target 'module14-tvOSTests' do
+    #inherit! :search_paths
     # Pods for testing
-  end
+  #end
 
-end
+#end
