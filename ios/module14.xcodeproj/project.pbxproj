@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		C4FF7A2523CA9F25007CB999 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FF7A2423CA9F25007CB999 /* libBVLinearGradient.a */; };
 		FC2571036512731BF54D80B3 /* libPods-module14.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A678383DA65BF797B916E55D /* libPods-module14.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		A678383DA65BF797B916E55D /* libPods-module14.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-module14.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B273E053DEAC4A78A1A4850D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		C4FF7A2323CA8D94007CB999 /* module14.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = module14.entitlements; path = module14/module14.entitlements; sourceTree = "<group>"; };
+		C4FF7A2423CA9F25007CB999 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2EE24D0EA149AA99CC7C1B /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		CEEE97521F164BD099F3C5FC /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		CFF6A58C0A354DD1ABABCE64 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4FF7A2523CA9F25007CB999 /* libBVLinearGradient.a in Frameworks */,
 				FC2571036512731BF54D80B3 /* libPods-module14.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +131,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4FF7A2423CA9F25007CB999 /* libBVLinearGradient.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				A678383DA65BF797B916E55D /* libPods-module14.a */,
