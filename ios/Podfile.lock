@@ -283,7 +283,7 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Base64
     - boost-for-react-native
     - JWT
@@ -398,6 +398,6 @@ SPEC CHECKSUMS:
   SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
   Yoga: ba3d99dbee6c15ea6bbe3783d1f0cb1ffb79af0f
 
-PODFILE CHECKSUM: 590919301be5d5f561463450259cc534df57b27d
+PODFILE CHECKSUM: 1551c5b1c430b24b9fe89c800ed0b6357bdd0a89
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4

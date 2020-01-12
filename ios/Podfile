@@ -45,8 +45,6 @@ target 'module14' do
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
 
-
-
   #target 'module14Tests' do
     #inherit! :search_paths
     # Pods for testing
