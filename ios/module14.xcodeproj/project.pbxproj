@@ -383,7 +383,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/Framework\"",
-					"\"${PROJECT_DIR}/Pods\"",
+					"\"${PROJECT_DIR}/Pods\"/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -415,7 +415,7 @@
 					"\"${PODS_ROOT}/Headers/Public/glog\"",
 					"\"${PODS_ROOT}/Headers/Public/react-native-onesignal\"",
 					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
-					"\"${PROJECT_DIR}/Pods\"",
+					"\"${PROJECT_DIR}/Pods\"/**",
 				);
 				INFOPLIST_FILE = module14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -444,7 +444,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/Framework\"",
-					"\"${PROJECT_DIR}/Pods\"",
+					"\"${PROJECT_DIR}/Pods\"/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -476,7 +476,7 @@
 					"\"${PODS_ROOT}/Headers/Public/glog\"",
 					"\"${PODS_ROOT}/Headers/Public/react-native-onesignal\"",
 					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
-					"\"${PROJECT_DIR}/Pods\"",
+					"\"${PROJECT_DIR}/Pods\"/**",
 				);
 				INFOPLIST_FILE = module14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -659,7 +659,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/Framework\"",
-					"\"${PROJECT_DIR}/Pods\"",
+					"\"${PROJECT_DIR}/Pods\"/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -691,7 +691,7 @@
 					"\"${PODS_ROOT}/Headers/Public/glog\"",
 					"\"${PODS_ROOT}/Headers/Public/react-native-onesignal\"",
 					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
-					"\"${PROJECT_DIR}/Pods\"",
+					"\"${PROJECT_DIR}/Pods\"/**",
 				);
 				INFOPLIST_FILE = module14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
