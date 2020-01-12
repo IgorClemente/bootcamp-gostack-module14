@@ -46,7 +46,6 @@ target 'module14' do
 
 
 
-  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
 
   #target 'module14Tests' do
     #inherit! :search_paths
