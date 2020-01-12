@@ -20,7 +20,6 @@
     "react-native": "0.61.4",
     "react-native-code-push": "^6.0.0",
     "react-native-gesture-handler": "^1.5.0",
-    "react-native-linear-gradient": "^2.5.6",
     "react-native-onesignal": "^3.6.1",
     "react-native-reanimated": "^1.4.0",
     "react-native-screens": "^1.0.0-alpha.23",
