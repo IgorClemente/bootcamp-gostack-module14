@@ -10,7 +10,25 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		369696B6ACAA6FF2F15D962A /* libPods-module14.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE1ED10E6EEFACF255064B5 /* libPods-module14.a */; };
+		C420A96523CB986400A08C9D /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C420A96423CB986400A08C9D /* libBVLinearGradient.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C420A96023CB983E00A08C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C420A95B23CB983E00A08C9D /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = BVLinearGradient;
+		};
+		C420A96223CB983E00A08C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C420A95B23CB983E00A08C9D /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64AA15081EF7F30100718508;
+			remoteInfo = "BVLinearGradient-tvOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
@@ -37,6 +55,8 @@
 		625802D8B77C31FD635C2F29 /* Pods-module14.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-module14.debug.xcconfig"; path = "Target Support Files/Pods-module14/Pods-module14.debug.xcconfig"; sourceTree = "<group>"; };
 		6FD8C6E64B864C43B792DEE1 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		B273E053DEAC4A78A1A4850D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		C420A95B23CB983E00A08C9D /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
+		C420A96423CB986400A08C9D /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FF7A2323CA8D94007CB999 /* module14.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = module14.entitlements; path = module14/module14.entitlements; sourceTree = "<group>"; };
 		C82FF7A29FC2AE6FA20DDBC3 /* Pods-module14.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-module14.release.xcconfig"; path = "Target Support Files/Pods-module14/Pods-module14.release.xcconfig"; sourceTree = "<group>"; };
 		CE2EE24D0EA149AA99CC7C1B /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
@@ -51,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C420A96523CB986400A08C9D /* libBVLinearGradient.a in Frameworks */,
 				369696B6ACAA6FF2F15D962A /* libPods-module14.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +147,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				C420A95B23CB983E00A08C9D /* BVLinearGradient.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -154,9 +176,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C420A95C23CB983E00A08C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C420A96123CB983E00A08C9D /* libBVLinearGradient.a */,
+				C420A96323CB983E00A08C9D /* libBVLinearGradient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F64D1ED2E5B8EE41B9513D9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C420A96423CB986400A08C9D /* libBVLinearGradient.a */,
 				0DE1ED10E6EEFACF255064B5 /* libPods-module14.a */,
 			);
 			name = Frameworks;
@@ -220,12 +252,35 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C420A95C23CB983E00A08C9D /* Products */;
+					ProjectRef = C420A95B23CB983E00A08C9D /* BVLinearGradient.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* module14 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C420A96123CB983E00A08C9D /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = C420A96023CB983E00A08C9D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C420A96323CB983E00A08C9D /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = C420A96223CB983E00A08C9D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
