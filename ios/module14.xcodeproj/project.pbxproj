@@ -621,7 +621,7 @@
 				CODEPUSH_KEY = "_5BlfmdxHm5CPV5UH5nh-CjQ_nVcKDc2Si7WI";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
-				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -642,7 +642,7 @@
 		};
 		C4FF7A1F23CA7DA9007CB999 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CFC7FB6FBCC7E2BA92827A4 /* Pods-module14.release.xcconfig */;
+			baseConfigurationReference = B420F230F7C4CA28DAFA6AC7 /* Pods-module14.staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = module14/module14.entitlements;
