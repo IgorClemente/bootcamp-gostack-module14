@@ -44,6 +44,10 @@ target 'module14' do
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
 
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  pod 'CodePush', :path => '../node_modules/react-native-code-push'
+
   #target 'module14Tests' do
     #inherit! :search_paths
     # Pods for testing
