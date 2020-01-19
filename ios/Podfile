@@ -38,26 +38,24 @@ target 'module14' do
 
   pod 'react-native-onesignal', :path => '../node_modules/react-native-onesignal'
 
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-
-  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
-
-
-  #target 'module14Tests' do
-    #inherit! :search_paths
+  target 'module14Tests' do
+    inherit! :search_paths
     # Pods for testing
-  #end
+  end
+
   use_native_modules!
 end
 
-#target 'module14-tvOS' do
-  #Pods for module14-tvOS
+target 'module14-tvOS' do
+  # Pods for module14-tvOS
 
- #target 'module14-tvOSTests' do
-    #inherit! :search_paths
+  target 'module14-tvOSTests' do
+    inherit! :search_paths
     # Pods for testing
-  #end
+  end
 
-#end
+end

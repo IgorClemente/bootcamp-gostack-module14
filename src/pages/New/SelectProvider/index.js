@@ -25,6 +25,7 @@ export default function SelectProvider({ navigation }) {
   return (
     <Background>
       <Container>
+        <Text>Igor Clemente</Text>
         <ProvidersList
           data={providers}
           keyExtractor={item => String(item.id)}
